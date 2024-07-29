@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: white;
+    max-width: 70%;
+    margin:100px auto;
+    padding:20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+h1{
+    margin-top:0;
+    text-align: center;
+}
+input{
+    padding:10px;
+    margin:10px 0;
+    border:1px solid gray;
+    border-radius: 5px;
+    width:100%;
+}
+button{
+    background-color: aquamarine;
+    color:black;
+    padding:10px;
+    border:none;
+    cursor: pointer;
+    width:100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition:all 0.3s linear;
+}
+button:hover{
+    background-color: aqua;
+}
+#total{
+    font-weight: bold;
+    font-size:25px;
+    margin-top:10px;
+}
